@@ -27,7 +27,8 @@ libalac_la_SOURCES = \
     dp_dec.c \
     dp_enc.c \
     matrix_dec.c \
-    matrix_enc.c
+    matrix_enc.c \
+    apple_alac.cpp
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = alac.pc
@@ -43,4 +44,5 @@ alacinclude_HEADERS = \
     ALACDecoder.h \
     ALACEncoder.h \
     dplib.h \
-    matrixlib.h
+    matrixlib.h \
+    apple_alac.h

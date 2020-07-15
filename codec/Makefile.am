@@ -36,4 +36,11 @@ pkgconfig_DATA = alac.pc
 alacincludedir = $(includedir)/alac
 
 # Install everything
-alacinclude_HEADERS = *.h
+alacinclude_HEADERS = \
+    EndianPortable.h \
+    ALACBitUtilities.h \
+    ALACAudioTypes.h \
+    ALACDecoder.h \
+    ALACEncoder.h \
+    dplib.h \
+    matrixlib.h

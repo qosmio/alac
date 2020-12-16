@@ -1,0 +1,35 @@
+alac (0.0.0r5) focal; urgency=medium
+
+  * Fix makefile in order to build successfully on Debian
+
+ -- xbmc <xbmc@ate.cx>  Wed, 16 Dec 2020 14:43:25 -0600
+
+alac (0.0r4+tg1+djcj1~trusty) trusty; urgency=low
+
+  * First tg stable release with working autotools and debian toolchain.
+
+ -- Marshall Banana <djcj@gmx.de>  Thu, 13 Nov 2014 11:00:16 +0100
+
+alac (0.0r4+tg1) raring; urgency=low
+
+  * First tg stable release with working autotools and debian toolchain.
+
+ -- Timothy Gu <timothygu99@gmail.com>  Sat, 15 Jun 2013 17:27:21 -0700
+
+alac (0.0r4+tg0~beta3) raring; urgency=low
+
+  * Add libtool to Build-depends.
+
+ -- Timothy Gu <timothygu99@gmail.com>  Tue, 15 Jun 2013 10:31:08 -0700
+
+alac (0.0r4+tg0~beta2) raring; urgency=low
+
+  * Add automake and autoconf to Build-depends.
+
+ -- Timothy Gu <timothygu99@gmail.com>  Tue, 11 Jun 2013 19:12:44 -0700
+
+alac (0.0r4+tg0~beta1) raring; urgency=low
+
+  * Initial release.
+
+ -- Timothy Gu <timothygu99@gmail.com>  Sat, 01 Jun 2013 12:01:35 -0700
